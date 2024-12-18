@@ -692,7 +692,6 @@ h3 {
     margin-top: 20px;
 	display: flex;
 	justify-content: center;
-	overflow: scroll;
 }
 .title{
     text-align: center;
@@ -712,4 +711,10 @@ h3 {
 }
 .gridt-footer img{
     width: 100px;
+}
+@media screen and (max-width:768px) {
+	.footer-social{
+		overflow: scroll;
+	}
+	
 }
